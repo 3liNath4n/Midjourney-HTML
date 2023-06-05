@@ -2,5 +2,15 @@
   "dependencies": {
     "discord.js-selfbot-v13": "^2.14.3",
     "dotenv": "^16.1.4"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "selfbot2html",
+  "description": "Allows access of midjourney bot without direct interaction with discord. Still requres an account with Midjourney access.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
