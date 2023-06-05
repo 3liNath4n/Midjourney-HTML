@@ -6,15 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice 1</title>
+
+    <style>
+        label {
+            display: block;
+        }
+
+        textarea {
+            height: 200px; /* Adjust the desired height */
+            width: 300px; /* Adjust the desired width */
+            resize: vertical; /* Allow vertical resizing of the textarea */
+        }
+    </style>
+
 </head>
 
 <body>
     <h1>Midjourney from HTML</h1>
 
-
     <form action="/submit" method="POST">
         <label for="input">Prompt For Midjourney:</label>
-        <input type="text" name="input" id="input">
+        <textarea name="input" id="input"></textarea>
         <button type="submit">Submit</button>
     </form>
 
