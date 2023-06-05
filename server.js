@@ -28,6 +28,7 @@ function mj(text) {
             const image = message.attachments.first().url;
             //send the image to the channel
             channel.send(image);
+            console.log("IMAGE RECEIVED");
 
 
             //the image slot is called imagePlaceholder, so replace the src of the imagePlaceholder with the image link
